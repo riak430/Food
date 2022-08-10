@@ -4,7 +4,7 @@ function BuildControl(props) {
   return (
     <div>
       <p>{props.title}</p>
-      <button>Нэмэх</button>
+      <button onClick={props.hoolNemeh}>Нэмэх</button>
       <button>Хасах</button>
     </div>
   );

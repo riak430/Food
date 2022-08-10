@@ -1,13 +1,13 @@
 import React from "react";
 import BuildControl from "../buildControl";
 
-function FoodControls() {
+function FoodControls(props) {
   return (
     <div>
-      <BuildControl title="Цуйван" />
-      <BuildControl title="Ногоотой шөл" />
-      <BuildControl title="Багштай цай" />
-      <BuildControl title="Хуушуур" />
+      <BuildControl title="tsuiwan" hoolNemeh={props.hoolNemeh} />
+      <BuildControl title="nogoo" hoolNemeh={props.hoolNemeh} />
+      <BuildControl title="bansh" hoolNemeh={props.hoolNemeh} />
+      <BuildControl title="huushuur" hoolNemeh={props.hoolNemeh} />
     </div>
   );
 }
