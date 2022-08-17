@@ -1,3 +1,4 @@
+import React from "react";
 import Toolbar from "../../components/Toolbar";
 import FoodBuilder from "../FoodBuilder";
 import "./App.css";
