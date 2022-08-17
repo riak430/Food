@@ -4,8 +4,8 @@ function BuildControl(props) {
   return (
     <div>
       <p>{props.title}</p>
-      <button onClick={props.hoolNemeh}>Нэмэх</button>
-      <button>Хасах</button>
+      <button onClick={() => props.hoolNemeh(props.title)}>Нэмэх</button>
+      <button onClick={() => props.hoolHasah(props.title)}>Хасах</button>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Food = (props) => {
   const items = Object.entries(props.foods);
   const content = [];
   items.map((el) => {
-    content.push(<Orts name={el[0]} number={el[1]} />);
+    content.push(<Orts key={el[0]} name={el[0]} number={el[1]} />);
   });
 
   return <div className={style.foodContainer}>{content}</div>;
